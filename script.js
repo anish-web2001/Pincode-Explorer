@@ -32,8 +32,10 @@ async function getPincodeData() {
                 dataDiv.innerHTML += `
                     <div class="card">
                         <h2>🏣 ${post.Name} </h2>
+                        <p><strong>Block:</strong> ${post.Block} </p>
                         <p><strong>District:</strong> ${post.District} </p>
                         <p><strong>State:</strong> ${post.State} </p>
+                        <p><strong>Pincode:</strong> ${post.Pincode} </p>
                     </div>
                     `
             }
