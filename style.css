@@ -108,6 +108,23 @@ button:hover {
 .card strong {
     color: #0f172a;
 }
+#loading{
+    display:none;
+    width:45px;
+    height:45px;
+    margin:25px auto;
+    border:5px solid #ddd;
+    border-top:5px solid #2563eb;
+    border-radius:50%;
+    animation: spin 0.8s linear infinite;
+    font-size: 0;
+}
+
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}
 
 @media(max-width:768px) {
     .container {
